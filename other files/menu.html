@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,101 +8,144 @@
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Nunito+Sans:ital,wght@0,400;0,700;0,800;1,300;1,700&family=Poppins:wght@400;500;600;700;800;900&display=swap');
-    *{
+
+    * {
         padding: 0;
         margin: 0;
-    }
-    .content{
-        align-items: center;
-        margin: 10px 10px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-flow: row;
-
-    }
-    h1{
-        color: rgb(86, 39, 11);
-    }
-    body {font-family: "Times New Roman", Georgia, Serif;
-    background-color: bisque;}
-
-    .heading{
-        margin-left: 40px;
-    }
-
-    .menu{
-        margin-left: 150px;
-        background-color: rgb(87, 64, 36);
-        width: 700px;
-    }
-
-    .menu-content{
-       
-        text-align: center;
-    }
-
-    h2, h3, h4, h5, h6 {
-        font-family: "Playfair Display";
-        letter-spacing: 4px;
-        color: rgb(248, 248, 248);
-    }
-
-    .grey{
-    color: rgb(229, 178, 143);
     }
 
     p {
         display: block;
-        margin-block-start: 2em;
+        margin-block-start: 0.5em;
         margin-block-end: 1em;
     }
-    .our{
-        margin-left: 200px;
-        color: rgb(253, 238, 144);
-        font-family: "Playfair Display";
-        letter-spacing: 4px;
+
+    .content {
+        align-items: center;
+        margin: 10px 50px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: row;
+        background-color: rgb(249, 249, 249);
     }
-    .main_body{
+
+    .top {
+        color: rgb(72, 33, 10);
+        margin-left: 98px;
+        margin-top: 20px;
+        font-size: 2.5em;
+    }
+
+    .subhead {
+        color: rgb(72, 33, 10);
+        margin-left: 455px;
+        font-size: 1.60em;
+    }
+
+    body {
+        font-family: "Times New Roman", Georgia, Serif;
+        background-color: rgb(191, 165, 135);
+    }
+
+    .menu {
+        margin-top: 15px;
+        background-color: rgb(55, 34, 8);
+        width: 70%;
+        height: max-content;
+    }
+
+    .menu-content {
+        text-align: center;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Playfair Display";
+        letter-spacing: 3px;
+        color: rgb(248, 248, 248);
+    }
+
+    .grey {
+        color: rgb(229, 178, 143);
+    }
+
+
+
+    .our {
+        margin-left: 216px;
+        color: rgb(244, 228, 121);
+        font-family: "Playfair Display";
+        letter-spacing: 2px;
+    }
+
+    .main_body {
         display: flex;
         flex-wrap: wrap;
         flex-flow: row;
     }
 
-    .main_body img{
-        margin: 90px;
+    .image{
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        margin-left: 50px;
+        margin-top: 5px;
+        margin-right: 50px;
+    }
+
+    .image img{
+        margin: 10px;
+
     }
 </style>
 
 <body>
     <div class="content">
         <br>
-        <img src="/media/logo.jfif" alt="", height="150">
-        <h1 class="heading">Premium Quality Coffee Shop</h1>
+        <img src="/media/logo.jfif" alt="" , height="150">
+
+        <div>
+            <p class="top"><b><i>Premium Quality Coffee Shop</i></b></p>
+            <p class="subhead"><i>Once you come here, You will always come here</i></p>
+        </div>
+
         <img src="./media/fb1.jfif" alt="">
         <br>
     </div>
-<div class="main_body">
-    <div class="menu">
-        <h1 class="our"><b>OUR MENU</b></h1><br>
-        <br>
-        <div class="menu-content">
-          <h4>Hot Coffee --- Rs. 30</h4>
-          <p class="grey">Instant and Refreshing Hot Coffee</p><br>
+    <div class="main_body">
+        <div class="image">
+            <img src="/media/thumb1.png" alt="" , height="200", width="180">
+            <img src="/media/thumb2.png" alt="" , height="200">
+        </div>
+        <div class="menu">
+            <h1 class="our"><b><u>OUR MENU</u></b></h1><br>
+            <br>
+            <div class="menu-content">
+                <h4>Hot Coffee --- Rs. 30</h4>
+                <p class="grey">Instant and Refreshing Hot Coffee</p><br>
+
+                <h4>Cold Coffee --- Rs. 50</h4>
+                <p class="grey">Exotic flavored strong and chilled coffee</p><br>
+
+                <h4>Cold Coffee with Choco Crush --- Rs. 70</h4>
+                <p class="grey">Delicious Cold Coffee topped by Choco crush</p><br>
+
+                <h4>Cold Coffee with Choco Crush Ice-cream --- Rs. 150</h4>
+                <p class="grey">Choclate Ice-cream with thick cold coffee covered with choco crush</p><br>
+
+                <h4>Ice Coffee --- Rs. 80</h4>
+                <p class="grey">Refreshing chilled coffee to make your summer more sunny</p>
+            </div>
+        </div>
         
-          <h4>Cold Coffee --- Rs. 50</h4>
-          <p class="grey">Exotic flavored strong and chilled coffee</p><br>
-        
-          <h4>Cold Coffee with Choco Crush --- Rs. 70</h4>
-          <p class="grey">Delicious Cold Coffee topped by Choco crush</p><br>
-        
-          <h4>Cold Coffee with Choco Crush Ice-cream --- Rs. 150</h4>
-          <p class="grey">Choclate Ice-cream with thick cold coffee covered with choco crush</p><br>
-        
-          <h4>Blueberry Mojito --- Rs. 80</h4>
-          <p class="grey">Refreshing chilled beverage flavoured with mint and blueberries</p>   
+        <div class="image">
+            <img src="/media/thumb3.png" alt="" , height="200">
+            <img src="/media/ice.png" alt="" , height="200">
         </div>
     </div>
-    <img src="/media/thumb2.png" alt="", width="300">
-</div>
 </body>
+
 </html>
